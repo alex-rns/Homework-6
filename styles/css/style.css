@@ -7,7 +7,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font: 14px/24px "RobotoSlabBold", sans-serif;
+  font: 14px/24px PlayfairDisplayRegular, sans-serif;
   background: #fff;
   color: #626262; }
 
@@ -20,7 +20,7 @@ div, menu, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, 
 button {
   padding: 0;
   margin: 0;
-  outline: none;
+  outline: none !important;
   list-style: none;
   cursor: pointer; }
 
@@ -173,16 +173,16 @@ h3 {
 p {
   font: 15px/30px "RobotoLight", sans-serif; }
 
-.main-header {
+.top-header {
   padding: 50px 0;
   background: #edeff1; }
-  .main-header h1 {
+  .top-header h1 {
     text-indent: -9999px; }
-  .main-header li a {
+  .top-header li a {
     font: 18px/24px "RobotoSlabRegular",sans-serif;
     padding: 10px 20px !important; }
-    .main-header li a:hover {
-      border-radius: 20px;
+    .top-header li a:hover {
+      border-radius: 30px;
       background-color: #dd4b2b; }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -190,6 +190,10 @@ p {
 
 .navbar-light .navbar-nav .nav-link {
   color: #31353e; }
+
+section {
+  text-align: center;
+  padding: 80px 0; }
 
 .img-responsive {
   display: block;
@@ -208,6 +212,7 @@ p {
   background-size: cover; }
 
 .welcome-wrapper {
+  padding-top: 100px;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -224,7 +229,10 @@ p {
   justify-content: center; }
 
 h2 {
-  font: 72px/48px "RobotoSlabLight", serif; }
+  font: 72px/48px "RobotoSlabLight", serif;
+  margin-bottom: 10px; }
+  h2 + h3 {
+    margin-bottom: 80px; }
 
 .welcome-food {
   -webkit-flex-wrap: wrap;
@@ -238,10 +246,9 @@ h2 {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 80px; }
+  margin-bottom: 60px; }
   .welcome-food li {
-    padding: 0 20px;
-    width: 33%; }
+    padding: 0 20px; }
 
 .welcome-img-wrap {
   margin: 0 auto;
@@ -255,14 +262,80 @@ h2 {
   overflow: hidden;
   font: 18px/24px "RobotoSlabRegular",sans-serif;
   padding: 10px 20px;
-  border: 1px solid #878180;
-  border-radius: 20px;
-  margin: 0 auto;
+  border-radius: 30px;
+  margin: 35px auto 0;
   width: 200px;
   display: block; }
 
 .welcome-button {
+  border: 1px solid #878180;
   color: #612316; }
+
+.hvr-radial-out:before {
+  background: #dd4b2b; }
+
+.our-news {
+  color: #31353e;
+  background: #edeff1; }
+  .our-news header h3 {
+    padding-bottom: 80px; }
+
+.news-wrapper {
+  text-align: center; }
+  .news-wrapper img {
+    margin-bottom: 30px; }
+
+.news-button {
+  background: #fff;
+  border: none;
+  margin-bottom: 30px;
+  font: 15px/30px "RobotoLight", sans-serif; }
+
+.newsletter-section {
+  color: #fff;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6)), color-stop(84%, rgba(5, 24, 76, 0)), to(rgba(6, 28, 91, 0))), url("../../../../images/subscribe&footer-img.png") no-repeat;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.6) 0%, rgba(5, 24, 76, 0) 84%, rgba(6, 28, 91, 0) 100%), url("../../../../images/subscribe&footer-img.png") no-repeat;
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.6) 0%, rgba(5, 24, 76, 0) 84%, rgba(6, 28, 91, 0) 100%), url("../../../../images/subscribe&footer-img.png") no-repeat;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, rgba(5, 24, 76, 0) 84%, rgba(6, 28, 91, 0) 100%), url("../../../../images/subscribe&footer-img.png") no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .newsletter-section p {
+    max-width: 700px;
+    margin: 0 auto 45px; }
+
+.subscribe-form {
+  outline: none;
+  text-align: center; }
+  .subscribe-form input {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 50px;
+    width: 500px;
+    height: 55px;
+    border: 1px solid #d4d5d5;
+    border-radius: 30px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.3); }
+    .subscribe-form input::-webkit-input-placeholder {
+      color: #ffffff;
+      font: 18px/30px "RobotoSlabRegular", sans-serif; }
+    .subscribe-form input:-ms-input-placeholder {
+      color: #ffffff;
+      font: 18px/30px "RobotoSlabRegular", sans-serif; }
+    .subscribe-form input::placeholder {
+      color: #ffffff;
+      font: 18px/30px "RobotoSlabRegular", sans-serif; }
+  .subscribe-form button {
+    outline: none;
+    position: relative;
+    margin-left: -50px;
+    border: none;
+    height: 55px;
+    overflow: hidden;
+    font: 18px/24px "RobotoSlabRegular",sans-serif;
+    padding: 10px 40px;
+    border-radius: 30px;
+    background: #fff; }
 
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */

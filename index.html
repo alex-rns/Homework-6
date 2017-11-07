@@ -8,14 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="styles/css/style.css"/>
   <link href="styles/css/hover.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" type="text/css" href="styles/css/style.css"/>
+
 </head>
 <body>
   <div class="wrapper">
 
 
-    <header class="main-header">
+    <header class="top-header">
       <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light ">
               <a class="navbar-brand " href="#"><img src="images/logo.png" alt="Panakeia"></a>
@@ -51,22 +52,22 @@
       <div class="welcome-wrapper container">
         <h2>Integer at tortor ut magna</h2>
         <h3>finibus lobortis sed quis tellus.</h3>
-        <ul class="welcome-food">
-          <li>
+        <ul class="welcome-food row">
+          <li class="col-lg-4">
             <div class="welcome-img-wrap">
               <img src="images/Tincidunt.png" alt="">
             </div>
             <h3>Tincidunt</h3>
             <p>Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam tempus egestas efficitur. Sed quam dolor.</p>
           </li>
-          <li>
+          <li class="col-lg-4">
             <div class="welcome-img-wrap">
               <img src="images/Duis-bibendum.png" alt="">
             </div>
             <h3>Duis-bibendum</h3>
             <p>Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. In hac habitasse platea dictumst. </p>
           </li>
-          <li>
+          <li class="col-lg-4">
             <div class="welcome-img-wrap">
               <img src="images/Donec-ligula.png" alt="">
             </div>
@@ -74,12 +75,63 @@
             <p>Nullam tempus egestas efficitur. Sed quam dolor, vulputate sed mattis et, sodales quis orci. Ut arcu arcu, faucibus eu risus blandit,.</p>
           </li>
         </ul>
-        <button class="main-button welcome-button hvr-shutter-out-horizontal">
+        <button class="main-button welcome-button hvr-radial-out">
           Read more
         </button>
       </div>
     </section>
 
+    <section class="our-news">
+
+      <div class="container">
+        <div class="row">
+          <header class="col-lg-12">
+            <h3>Our news</h3>
+          </header>
+          <ul class="news-wrapper row">
+          <li class="col-sm-4">
+            <img class="img-responsive" src="images/our-news-img-1.png" alt="">
+            <h3>Lorem ipsum</h3>
+            <p>Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+            <button class="main-button news-button hvr-radial-out">
+              Read more
+            </button>
+          </li>
+          <li class="col-sm-4">
+            <img class="img-responsive" src="images/our-news-img-2.png" alt="">
+            <h3>Lorem ipsum</h3>
+            <p>Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+            <button class="main-button news-button hvr-radial-out">
+              Read more
+            </button>
+          </li>
+          <li class="col-sm-4">
+            <img class="img-responsive" src="images/our-news-img-3.png" alt="">
+            <h3>Lorem ipsum</h3>
+            <p>Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+            <button class="main-button news-button hvr-radial-out">
+              Read more
+            </button>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <h3>Newsletter</h3>
+      <p>Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo,
+        ullamcorper non diam sit amet, luctus condimentum metus</p>
+    <form class="subscribe-form" action="#">
+      <input type="email" name="subscribe" placeholder="email adress">
+      <button class="hvr-radial-out" type="submit">Sign up</button>
+    </form>
+
+    </section>
+
+    <section class="product-section">
+
+    </section>
 
 
 
