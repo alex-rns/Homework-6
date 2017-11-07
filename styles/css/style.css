@@ -201,6 +201,7 @@ section {
   height: auto; }
 
 .welcome-section {
+  padding-bottom: 0;
   text-align: center;
   color: #ffffff;
   height: 100vh;
@@ -212,7 +213,6 @@ section {
   background-size: cover; }
 
 .welcome-wrapper {
-  padding-top: 100px;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -232,7 +232,7 @@ h2 {
   font: 72px/48px "RobotoSlabLight", serif;
   margin-bottom: 10px; }
   h2 + h3 {
-    margin-bottom: 80px; }
+    margin-bottom: 70px; }
 
 .welcome-food {
   -webkit-flex-wrap: wrap;
@@ -246,7 +246,7 @@ h2 {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 60px; }
+  margin-bottom: 35px; }
   .welcome-food li {
     padding: 0 20px; }
 
@@ -259,16 +259,18 @@ h2 {
   height: 135px; }
 
 .main-button {
+  vertical-align: top;
   overflow: hidden;
   font: 18px/24px "RobotoSlabRegular",sans-serif;
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-radius: 30px;
   margin: 35px auto 0;
-  width: 200px;
   display: block; }
 
 .welcome-button {
-  border: 1px solid #878180;
+  border: 1px solid #878180; }
+
+a:not([href]):not([tabindex]) {
   color: #612316; }
 
 .hvr-radial-out:before {
@@ -305,17 +307,18 @@ h2 {
 
 .subscribe-form {
   outline: none;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 30px; }
   .subscribe-form input {
     color: #fff;
     font-size: 20px;
     padding: 0 50px;
-    width: 500px;
+    width: 400px;
     height: 55px;
     border: 1px solid #d4d5d5;
     border-radius: 30px;
     position: relative;
-    background: rgba(255, 255, 255, 0.3); }
+    background: rgba(255, 255, 255, 0.2); }
     .subscribe-form input::-webkit-input-placeholder {
       color: #ffffff;
       font: 18px/30px "RobotoSlabRegular", sans-serif; }
@@ -333,7 +336,7 @@ h2 {
     height: 55px;
     overflow: hidden;
     font: 18px/24px "RobotoSlabRegular",sans-serif;
-    padding: 10px 40px;
+    padding: 10px 70px;
     border-radius: 30px;
     background: #fff; }
 

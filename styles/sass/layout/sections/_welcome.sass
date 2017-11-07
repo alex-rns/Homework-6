@@ -1,4 +1,5 @@
 .welcome-section
+  padding-bottom: 0
   text-align: center
   color: #ffffff
   height: 100vh
@@ -7,7 +8,8 @@
   background-size: cover
 
 .welcome-wrapper
-  padding-top: 100px
+
+  //padding-top: 60px
   height: 100%
   display: flex
   flex-direction: column
@@ -17,13 +19,13 @@ h2
   font: 72px/48px "RobotoSlabLight", serif
   margin-bottom: 10px
   + h3
-    margin-bottom: 80px
+    margin-bottom: 70px
 
 .welcome-food
   flex-wrap: wrap
   display: flex
   justify-content: space-between
-  margin-bottom: 60px
+  margin-bottom: 35px
   li
     padding: 0 20px
 .welcome-img-wrap
@@ -34,15 +36,16 @@ h2
   width: 135px
   height: 135px
 .main-button
+  vertical-align: top
   overflow: hidden
   font: 18px/24px "RobotoSlabRegular",sans-serif
-  padding: 10px 20px
+  padding: 10px 40px
   border-radius: 30px
   margin: 35px auto 0
-  width: 200px
   display: block
 .welcome-button
   border: 1px solid #878180
+a:not([href]):not([tabindex])
   color: #612316
 .hvr-radial-out:before
   background: $accent-color
