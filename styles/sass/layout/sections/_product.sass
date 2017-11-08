@@ -1,18 +1,17 @@
 .product-section
   text-align: left
-  .product-item
-    display: flex
-    align-items: center
-    margin-bottom: 50px
-    &:nth-child(even)
-      .product-img-wrap
-        order: -1
-      .product-button
-        background: #4b4e73
-    &:nth-child(odd)
-      .hvr-radial-out:before
-         background: #4b4e73
-
+.product-item
+  display: flex
+  align-items: center
+  margin-bottom: 50px
+  &:nth-child(even)
+    .product-img-wrap
+      order: -1
+    .product-button
+      background: #4b4e73
+  &:nth-child(odd)
+    .hvr-radial-out:before
+       background: #4b4e73
 .product-description
   padding: 0 35px
   h3, p
@@ -23,8 +22,9 @@
     margin-left: 0
 .product-img-wrap
   margin-bottom: 20px
-  border: 1px #dbdbdb solid
-
+  padding: 0 15px
+  img
+    border: 1px #dbdbdb solid
 .product-button
   color: #ffffff
   background: $accent-color

@@ -5,7 +5,6 @@
     margin-bottom: 6px
   a
     color: #fff
-    transition: $transition
     &:hover
       text-transform: uppercase
 .bottom-footer
@@ -14,7 +13,7 @@
   font: 18px /24px "ProximaNovaLight", sans-serif
   color: #ded9da
   padding-bottom: 200px
-  a
+  a:not([href]):not([tabindex])
     color: #fff
     &:hover
       text-decoration: underline
