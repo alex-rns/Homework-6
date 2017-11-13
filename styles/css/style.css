@@ -171,6 +171,9 @@ body {
   -ms-flex: 1 0 auto;
   flex: 1 0 auto; }
 
+.container {
+  max-width: 1170px; }
+
 h3 {
   font: 30px/48px "RobotoSlabBold", sans-serif; }
 
